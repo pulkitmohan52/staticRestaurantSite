@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>David Chu's Chinese Bistro</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img" alt="logo-image"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a href="index.html"><h1>&ensp;The Chinese Dragon &ensp;<img id="dragon-img"src="https://image.freepik.com/free-vector/cute-baby-dragon-cartoon-character-fairy-tale-cartoon-concept_78094-802.jpg" width="70px" height="70px"></h1></a>
+              <p>&nbsp;
+                <img class="net-img" src="https://image.shutterstock.com/image-vector/star-vector-icon-260nw-660000226.jpg" width="30px" height="30px" alt="kosher-certification">
+                <span>Kosher Certified</span>
+              </p>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span><br class="hidden-xs">Home
+                </a>
+              </li>
+              <li class="active">   <!--ACTIVE is a bootstrap class that indicates where we are in the website-->
+                <a href="menu-categories.html">
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards
+                </a>
+              </li>
+
+              <li id="phone" class="hidden-xs">
+                <a href="tel:410-602-5088">
+                  <span>410-602-5088</span>
+                </a>
+                <div>&emsp;&ensp;&emsp;*We deliver</div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">    <!--making the call button for the extra small screen devices-->
+      <a href="tel:410-602-5088" class="btn">
+        <span class="glyphicon glyphicon-earphone"></span>
+        410-602-5088
+      </a>
+    </div>
+
+    <div id="xs-deliver" class="text-center visible-xs">*We deliver</div>
+    <div id="main-content" class="container">
+      <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+      <div class="text-center">Lunch is not served until after 2pm</div>
+
+      <section class="row">
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D01</div>
+                <img src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B.jpg" class="img-responsive" width="250" height="150" alt="item">
+              </div>
+              <div class="menu-item-price">$10.95<span>(pint)</span>&ensp;$14.95<span>(quart)</span></div>
+            </div>
+
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Veal with mixed vegetables</h3>
+              <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D02</div>
+                <img src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B.jpg" class="img-responsive" width="250" height="150" alt="item">
+              </div>
+              <div class="menu-item-price">$10.95<span>(pint)</span>&ensp;$14.95<span>(quart)</span></div>
+            </div>
+
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Veal with mixed vegetables</h3>
+              <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce.</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+        <div class="clearfix visible-lg-block visible-md-block"></div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D03</div>
+                <img src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B.jpg" class="img-responsive" width="250" height="150" alt="item">
+              </div>
+              <div class="menu-item-price">$10.95<span>(pint)</span>&ensp;$14.95<span>(quart)</span></div>
+            </div>
+
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Veal with mixed vegetables</h3>
+              <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D04</div>
+                <img src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B.jpg" class="img-responsive" width="250" height="150" alt="item">
+              </div>
+              <div class="menu-item-price">$10.95<span>(pint)</span>&ensp;$14.95<span>(quart)</span></div>
+            </div>
+
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Veal with mixed vegetables</h3>
+              <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+         <div class="clearfix visible-lg-block visible-md-block"></div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D05</div>
+                <img src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B.jpg" class="img-responsive" width="250" height="150" alt="item">
+              </div>
+              <div class="menu-item-price">$10.95<span>(pint)</span>&ensp;$14.95<span>(quart)</span></div>
+            </div>
+
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Veal with mixed vegetables</h3>
+              <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D06</div>
+                <img src="https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture37/after/images/menu/B/B.jpg" class="img-responsive" width="250" height="150" alt="item">
+              </div>
+              <div class="menu-item-price">$10.95<span>(pint)</span>&ensp;$14.95<span>(quart)</span></div>
+            </div>
+
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Veal with mixed vegetables</h3>
+              <p class="menu-item-details">bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+
+         <div class="clearfix visible-lg-block visible-md-block"></div>
+      </section>
+    </div>            <!--END OF THE MAIN CONTENT-->
+
+    
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br>   <!--keeping HOURS in span because it makes it look a lil diff from the other text-->
+            Sun-Thurs: 11:15am - 10:00pm<br>
+            Fri : 11:15am-2:30pm<br>
+            Saturday closed
+            <hr class="visible-xs">
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br>
+            7105 Reistertown Road<br>
+            Baltimore, MD 21205
+            <p>Delivery within 3-4 miles with minimum order of 20$ plus 3$ for deliverables</p>
+            <hr class="visible-xs">
+          </section>
+
+          <section id="testimonials" class="col-sm-4">
+            <p>"The best chinese restaurant i've ever been to 
+            and that's saying a lot because i've been to many."</p>
+            <p>"Amazing food great  service couldn't ask for more."</p>
+          </section>
+        </div>
+      </div>
+
+      <div class="text-center">&copy;Copyright David Chu's China Bistro 2016</div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
