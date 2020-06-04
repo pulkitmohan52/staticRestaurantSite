@@ -201,6 +201,7 @@ h3.menu-item-title{
 #testimonials{
 	font-family: 'Balsamiq Sans', cursive;
 	font-size: 18px;
+	font-style: italic;
 }
 .panel-footer div.row{
 	margin-bottom: 30px;		/*so that copyright moves a little downwards and now there is some space*/
